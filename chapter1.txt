@@ -1,7 +1,13 @@
 It was the best of times, it was the worst of times.
 
-git init: Initializes a new Git repository.
+git init: Initializes a new Git repository in the working directory.
 git status: Show the status of the working directory.
-git add <file>: Add a file to the staging area.
+git add <file>: Add a file to the staging area. 
+                Needed to add a new file to the repository or when modify a file.
 git commit - m "Commit message": Commits changes to the staging area with a descriptive message.
-git log: Shows executed git commits.
+git log: Shows executed git commits. The commit with the "HEAD -> master" annotations appoint to
+         the last commit executed (current state).
+git diff <file>: Show differences in a file in the working directory with the repository version.
+git checkout <file>: Restores a file in the working directory with the repository version.
+                     This discards all changes on the file and it is overwritten with the
+                     repository version of the file.
