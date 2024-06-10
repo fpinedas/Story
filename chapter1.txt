@@ -11,3 +11,13 @@ git diff <file>: Show differences in a file in the working directory with the re
 git checkout <file>: Restores a file in the working directory with the repository version.
                      This discards all changes on the file and it is overwritten with the
                      repository version of the file.
+
+**** 
+Push an existing repository from the command line to GitHub:
+
+git remote add origin https://github.com/fpinedas/Story.git
+                            # create remote repository with name "origin".
+git branch -M main          # 
+git push -u origin main     # -u flag means bind local repository to remote repository.
+
+Working Directory -> Staging Area -> Local Git Repository -> Remote GitHub Repository
