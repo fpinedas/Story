@@ -21,3 +21,12 @@ git branch -M main          #
 git push -u origin main     # -u flag means bind local repository to remote repository.
 
 Working Directory -> Staging Area -> Local Git Repository -> Remote GitHub Repository
+
+****
+git clone <GitHub Repository>: clone a GitHub Repository on local disk.
+
+****
+git branch: show git branches on working directory.
+git branch <new-branch>: create a new branch on repository.
+git checkout <branch>: switch to the specified <branch>. 
+                       So, next git commands applies to this <branch>.
