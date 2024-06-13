@@ -30,3 +30,6 @@ git branch: show git branches on working directory.
 git branch <new-branch>: create a new branch on repository.
 git checkout <branch>: switch to the specified <branch>. 
                        So, next git commands applies to this <branch>.
+git merge <branch>: merge changes made on <branch> into the current branch.
+                    So, if you want merge changes on "main" branch, previously
+                    you must execute a "git checkout main" command.
